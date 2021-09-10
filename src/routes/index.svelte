@@ -5,7 +5,7 @@
 	const isBrowser = typeof window !== 'undefined';
 
 	if (isBrowser) {
-		CSS.paintWorklet.addModule(`/assets/6.js`);
+		CSS.paintWorklet.addModule(`/6.js`);
 	}
 
 	interface Point {
